@@ -1,0 +1,254 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{padding: 20px 50px;
+position: fixed; 
+width: 100%;
+}
+
+header ul{  float: right;
+margin: 20px 0;
+}
+header ul li {
+    display: inline;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+    padding: 15px;
+    color: #fff;
+    list-style: none;
+    
+}
+header ul li a
+{
+    text-decoration: none;
+    color: #ffff;
+
+}
+header ul li a:hover
+{
+ color:#fc0;
+ border-radius: 5px;  
+}
+.hero{
+    background-image: url(./images/header.jpg);
+    height: 84vh;
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+}
+.hero-inner{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: #fff;
+font-family: 'Times New Roman', Times, serif;
+padding-top: 15px;
+margin: 15px;
+}
+.services
+{
+columns: 3 auto;
+text-align:center;
+margin-bottom: 20px;
+margin-top: 5% ;
+}
+.about-items h3
+{
+font-size: 25px;
+font-family: serif;
+text-align: center;
+margin-bottom: 20px;
+}
+.about-items p
+{
+text-align: center;
+font-size: medium;
+}
+.sign-up img
+{
+ width: 45%;
+ margin: auto;
+}
+.sign-up
+{
+    background-color: darkgrey;
+    padding: 30px 0;
+    text-align: center;
+}
+.sign-up h2
+{
+    font-size: 30px;
+    font-family: serif;
+    margin-top: 20px2;
+}
+.sign-up p
+{
+    font-size: 16px;
+    font-family: serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+ }
+ .sign-up a
+ { 
+     background-color: #fc0;
+     padding: 10px 20px;
+     /* justify-content: center;
+     position: absolute; */
+     font-weight: 700;
+     text-decoration: none;
+     border-radius: 5px;
+    
+ }
+  .sign-up a:hover
+  {
+      background-color:chocolate;
+      border: 3px solid cornflowerblue;
+  }
+  .comment-inner
+  {
+       background-color: lightgrey;
+        columns: 3 auto;
+        padding: 50px;
+        margin: 30px 50px;
+       
+  }
+  .comments
+  {
+    text-align: center;
+
+    margin: 0px 50px;
+    justify-content: center;
+}
+.client
+{
+    text-align: center;
+    margin: 150px 50px;
+    justify-content: center;
+}
+.comment-items
+{
+font-size: 18px;
+font-family: serif;
+text-align: center;
+display: inline;
+ 
+}
+
+.comment-items h4
+{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    margin: 20px 20px ;
+    
+    
+} 
+.comment-items p
+{
+   text-align: left; 
+   line-height: 25px;
+}
+.subscribe
+{
+    background-color: rgba(165, 71, 9, 0.938);
+    margin-bottom: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+ .subscribe .newsletter #email
+ {
+    text-align: left;
+    border-radius: 0px 20px 20px 0px;
+    width: 200px;
+    height: 50px;
+    border:none;
+    padding: 25px;
+ }
+
+ .subscribe .newsletter #name
+{
+    border-radius: 20px 0 0 20px;
+    text-align: left;
+    width: 200px;
+    height: 50px;
+    border:none;
+    padding: 25px;
+}
+.subscribe h3
+{
+    text-align: center;
+    margin: 2opx;
+    padding: 10px 20px;
+    font-size: xx-large;
+    color: #fff;
+}
+.subscribe .newsletter .aa
+{
+    background-color: black;
+     padding: 10px 20px;
+     font-weight: lighter;
+     font-size: large;
+     
+     text-decoration: none;
+     border-radius: 20px;
+     width: 145px;
+     height: 50px;
+     color:white;
+}
+
+.subscribe .newsletter .aa:hover
+{
+background-color:chocolate;
+border: 3px solid cornflowerblue;
+
+}
+footer
+{
+    background-color:black;
+    text-align: center;
+    padding: 50px;
+    margin-top:0px;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+footer ul li
+{
+    display: inline;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px; 
+   
+
+   
+}
+
+footer img
+{
+    margin-bottom: 40px;
+}
+footer p
+{
+    text-align: center;
+    display: inline-flex;
+    color: #fff;
+    margin-top: 60px;
+}
+footer p a
+{
+    text-decoration: none;
+    display: inline;
+    color: #fff;
+    margin: 0px 8px; 
+
+}
