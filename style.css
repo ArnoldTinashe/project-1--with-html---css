@@ -6,7 +6,7 @@
 }
 
 header{padding: 20px 50px;
-position: fixed; 
+position: absolute; 
 width: 100%;
 }
 
