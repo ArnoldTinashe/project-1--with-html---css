@@ -252,13 +252,13 @@ footer p a
     margin: 0px 8px; 
 }
 @media(orientation:landscape){
-    p{
+    body{
         font-size: 1.2rem;
     }
 
 }
 @media(orientation:portrait){
-    p{
+    body{
          font-size: 1.5rem;
          line-height: 1.5rem;
     }
