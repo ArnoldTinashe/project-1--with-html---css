@@ -250,5 +250,17 @@ footer p a
     display: inline;
     color: #fff;
     margin: 0px 8px; 
+}
+@media(orientation:landscape){
+    p{
+        font-size: 1.2rem;
+    }
 
+}
+@media(orientation:portrait){
+    p{
+         font-size: 1.5rem;
+         line-height: 1.5rem;
+    }
+    
 }
