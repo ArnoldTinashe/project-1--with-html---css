@@ -251,16 +251,4 @@ footer p a
     color: #fff;
     margin: 0px 8px; 
 }
-@media(orientation:landscape){
-    body{
-        font-size: 1.2rem;
-    }
 
-}
-@media(orientation:portrait){
-    body{
-         font-size: 1.5rem;
-         line-height: 1.5rem;
-    }
-    
-}
